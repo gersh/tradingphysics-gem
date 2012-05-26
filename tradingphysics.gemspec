@@ -4,8 +4,8 @@ require File.expand_path('../lib/tradingphysics/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Gershon Bialer"]
   gem.email         = ["gershon.bialer@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Access the trading physics api for stock information}
+  gem.summary       = %q{Trading physics api}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
