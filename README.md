@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+require 'tradingphysics'
+
+
+t=Tradingphysics::TradingPhysics.new("YOUR TRADING PHYSICS USERNAME","TRADINGPHYSICS HASH")
+dates=t.getDates() # Get dates where we have data
+d=t.getData('OHLCV','CSV','20120611',"QQQ") # Get OHLCV in CSV format for 2012-06-11 for symbol QQQQ
 
 ## Contributing
 
